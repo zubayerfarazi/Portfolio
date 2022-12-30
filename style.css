@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;   
+    font-family: 'Josefin Slab', serif;
+}
+nav{
+    background-color: #e3f2fd;
+}
+nav .navbar-brand {
+    font-size: 35px;
+    padding-right: 25%;
+} 
+span{
+    color: #f9004d;
+}
+nav ul .nav-item a{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .5s;
+}
+nav ul .nav-item a:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    color: black;
+    border-radius: 30px;
+}
+h1{
+    color: black;
+    font-size: 75px;
+}
+h2{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+h3{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    padding: 14px 130px 14px 15px;
+    margin-left: 11%;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    transition: .4s;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+}
+.newslatter form input:last-child:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    color: black;
+}
+.container img{
+    border-radius: 30px;
+}
+.container img:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.about-sec h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-sec h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-sec p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.about-sec .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+.about-sec .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    color: black;
+}
+.service i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+.service .card h5{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+.service .card p{
+    color: black;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.service .card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.service .card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    color: black;
+}
+.contact-me .card-header{
+    letter-spacing: 2px;
+    font-size: 45px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.contact-me .card-body p{
+    letter-spacing: 1px;
+    font-size: 28px;
+    margin-bottom: 45px;
+}
+.contact-me .card-body .button-two{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact-me .card-body .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    color: black;
+}
+footer{
+    position: relative;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social {
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;  
+}
+.end i{
+    color: white;
+}
