@@ -6,7 +6,6 @@ experience.addEventListener('click', function(){
    const expDetails = document.getElementById('experience-details');
    expDetails.style.display = 'block';
    expDetails.style.marginLeft = '12rem';
-   experience.style.borderBottom = '2px solid red';
    document.getElementById('skills-details').style.display= 'none';
    document.getElementById('education-details').style.display= 'none';
 })
