@@ -16,14 +16,13 @@
     <link rel="stylesheet" href="style.css">
     <!-- css link -->
     <!-- font-awesome -->
-    <link rel="stylesheet" href="Font-Awesome.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- font-awesome -->
 </head>
 <body>
     <!--nav section-->
-    <div class="container">
-            <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid ">
+            <nav class="navbar navbar-expand-lg header">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="index.html">Port<span>folio</span></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,10 +43,11 @@
                         <a class="nav-link">Skilles</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link">Contuct Me</a>
+                        <a class="nav-link">Contact Me</a>
                       </li>
                     </ul>
-                      <button class="btn btn-outline-success bg-danger text-light" type="submit">Subscribe</button>
+                      <button class="btn btn-outline-success bg-black text-light mx-2" id="dark-btn" type="button">Dark</button>
+                      <button class="btn btn-outline-success bg-primary text-light" id="light-btn" type="button">Light</button>
                   </div>
                 </div>
               </nav>
@@ -55,7 +55,7 @@
     <!--nav section-->
 
     <!--main section-->
-    <div class="container text-center">
+    <div class="container-fluid text-center afterBody">
         <div class="row align-items-start">
           <div class="col" style="margin-top: 15%;">
             <h3>Hello, My name is</h3>
@@ -76,7 +76,7 @@
     <!--main section-->
 
     <!--About Section-->
-    <div class="container about-sec my-5">
+    <div class="container-fluid about-sec my-5">
         <div class="row align-items-start">
           <div class="col">
             <img src="../Images/img.png" alt="" width="500px" height="700px">
@@ -120,7 +120,7 @@
       <!--About Section-->
 
       <!--Services-->
-      <div class="container service">
+      <div class="container-fluid service">
         <h2 style="text-align: center; font-size: 55px; margin-top: 20px;">Services</h2>
         <div class="row">
             <div class="col-md-4  mb-3 mb-sm-0">
@@ -173,7 +173,7 @@
       <!--Contact Me-->
 
       <!--Footer-->
-      <div class="container footer">
+      <div class="container-fluid footer">
         <footer>
             <p>Zubayer Farazi</p>
           <p>To Contact With Me Follow Bellow Links:</p>

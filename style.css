@@ -5,6 +5,9 @@
     scroll-behavior: smooth;   
     font-family: 'Josefin Slab', serif;
 }
+.header{
+    background-color: 	#ffcccc;
+}
 nav{
     background-color: #e3f2fd;
 }
@@ -28,6 +31,10 @@ nav ul .nav-item a:hover{
     color: black;
     border-radius: 30px;
 }
+nav button:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+}
 h1{
     color: black;
     font-size: 75px;
@@ -35,7 +42,7 @@ h1{
 h2{
     color: black;
     font-size: 25px;
-    margin-bottom: 2%;
+    margin-bottom: 1.3rem;
 }
 h3{
     color: black;
@@ -45,12 +52,13 @@ h3{
 .newslatter form input:first-child{
     display: inline-block;
     padding: 14px 130px 14px 15px;
-    margin-left: 11%;
+    margin-left: 3%;
     border: 2px solid #f9004d;
     outline: none;
     border-radius: 30px;
 }
 .newslatter form input:last-child{
+    display: inline-block;
     outline: none;
     border: none;
     padding: 10px 30px;
@@ -67,10 +75,10 @@ h3{
     color: black;
 }
 .container img{
-    border-radius: 30px;
+    border-radius: 100px;
 }
 .container img:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
     transition: .3s;
 }
 .about-sec h2{
@@ -138,6 +146,9 @@ h3{
     padding: 9px 22px;
     border-radius: 30px;
     transition: .4s;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 .service .card .button:hover{
     background-color: transparent;
@@ -174,7 +185,7 @@ h3{
 }
 footer{
     position: relative;
-    background: #101010;
+    background: #ffcccc;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,12 +193,12 @@ footer{
 }
 footer p:nth-child(1){
     font-size: 30px;
-    color: white;
+    color: black;
     margin-bottom: 20px;
     font-weight: bold;
 }
 footer p:nth-child(2){
-    color: white;
+    color: black;
     font-size: 17px;
     width: 500px;
     text-align: center;
@@ -219,11 +230,10 @@ footer p:nth-child(2){
     font-size: 14px;  
 }
 .end i{
-    color: white;
+    color: red;
 }
 .tab-titles{
-    display: flex;  
-     
+    display: flex;      
     font-size: 18px;
     font-weight: bolder;
     cursor: pointer;
@@ -231,6 +241,21 @@ footer p:nth-child(2){
 }
 .tab-links{
     padding-right: 150px;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-links::after{
+    width: 20%;
 }
 .tab-contents{
     transition: 0.4s;
