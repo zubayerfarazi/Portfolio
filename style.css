@@ -74,10 +74,10 @@ h3{
     cursor: pointer;
     color: black;
 }
-.container img{
+.container-fluid img{
     border-radius: 100px;
 }
-.container img:hover{
+.container-fluid img:hover{
     transform: scale(1.1);
     transition: .3s;
 }
